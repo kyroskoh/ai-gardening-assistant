@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Gardening Assistant
 
-# Run and deploy your AI Studio app
+A comprehensive, AI-powered web application designed to be your personal plant care companion. This app helps you identify plants, diagnose problems, manage your personal garden, and get expert advice on all things green.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/18cLKt6sNvFMRAqRV-G1XSY_fWOYy43RE
+-   **🌿 Plant Identifier**: Simply upload a photo of any plant, and our AI will identify it and provide a detailed care guide covering sunlight, watering, soil, temperature, humidity, and fertilizing.
+-   **🩺 Plant Doctor**: Is your plant looking unwell? Upload a photo, and the Plant Doctor will diagnose potential diseases or pests, offering confidence levels and both organic and chemical treatment plans.
+-   **📖 My Garden**: 
+    -   Save identified plants to your personal collection, stored locally in your browser.
+    -   Log watering and fertilization dates for each plant.
+    -   Add personal notes to track your plant's progress.
+    -   Receive smart reminders for when it's time to water or fertilize next, based on the plant's specific needs and your last logged activity.
+-   **💬 Garden Chat**: Have a question? Chat with Ivy, our friendly AI gardening assistant, to get instant, helpful answers on a wide range of gardening topics.
 
-## Run Locally
+## 🚀 Tech Stack
 
-**Prerequisites:**  Node.js
+-   **Frontend**: React, TypeScript, Tailwind CSS
+-   **AI Model**: Google Gemini (`gemini-2.5-flash`) for identification, care guides, diagnostics, and chat.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Powered by Google Gemini.
